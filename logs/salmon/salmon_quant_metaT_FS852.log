@@ -1,0 +1,69 @@
+[2023-11-22 17:50:14.250] [jointLog] [info] setting maxHashResizeThreads to 8
+[2023-11-22 17:50:14.250] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2023-11-22 17:50:15.474] [jointLog] [info] numQuantThreads = 4
+[2023-11-22 17:50:22.264] [jointLog] [info] replaced 0 non-ACGT nucleotides with random nucleotides
+[2023-11-22 17:50:22.841] [fileLog] [info] quantification processed 0 fragments so far
+
+[2023-11-22 17:50:23.434] [jointLog] [info] Automatically detected most likely library type as U
+
+[2023-11-22 17:50:24.165] [fileLog] [info] quantification processed 1000000 fragments so far
+
+[2023-11-22 17:50:25.624] [fileLog] [info] quantification processed 2000000 fragments so far
+
+[2023-11-22 17:50:26.079] [jointLog] [info] 
+
+The alignment group queue pool has been exhausted.  1 extra fragments were allocated on the heap to saturate the pool.  No new fragments will be allocated
+
+
+[2023-11-22 17:50:33.479] [fileLog] [info] quantification processed 3000000 fragments so far
+
+[2023-11-22 17:50:43.250] [fileLog] [info] quantification processed 4000000 fragments so far
+
+[2023-11-22 17:50:52.771] [fileLog] [info] quantification processed 5000000 fragments so far
+
+[2023-11-22 17:51:02.491] [fileLog] [info] quantification processed 6000000 fragments so far
+
+[2023-11-22 17:51:12.186] [fileLog] [info] quantification processed 7000000 fragments so far
+
+[2023-11-22 17:51:13.494] [fileLog] [info] quantification processed 8000000 fragments so far
+
+[2023-11-22 17:51:14.649] [fileLog] [info] quantification processed 9000000 fragments so far
+
+[2023-11-22 17:51:15.794] [fileLog] [info] quantification processed 10000000 fragments so far
+
+[2023-11-22 17:51:17.228] [fileLog] [info] quantification processed 11000000 fragments so far
+
+[2023-11-22 17:51:18.488] [fileLog] [info] quantification processed 12000000 fragments so far
+
+[2023-11-22 17:51:19.664] [fileLog] [info] quantification processed 13000000 fragments so far
+
+[2023-11-22 17:51:20.838] [fileLog] [info] quantification processed 14000000 fragments so far
+
+[2023-11-22 17:51:22.310] [fileLog] [info] quantification processed 15000000 fragments so far
+
+[2023-11-22 17:51:23.573] [fileLog] [info] quantification processed 16000000 fragments so far
+
+[2023-11-22 17:51:24.747] [fileLog] [info] quantification processed 17000000 fragments so far
+
+[2023-11-22 17:51:25.986] [fileLog] [info] quantification processed 18000000 fragments so far
+
+[2023-11-22 17:51:26.967] [jointLog] [info] 
+
+
+Completed first pass through the alignment file.
+Total # of mapped reads : 18638573
+# of uniquely mapped reads : 18638572
+# ambiguously mapped reads : 1
+
+
+
+[2023-11-22 17:51:27.016] [jointLog] [info] Computed 48,057 rich equivalence classes for further processing
+[2023-11-22 17:51:27.016] [jointLog] [info] Counted 18,638,573 total reads in the equivalence classes 
+[2023-11-22 17:51:27.020] [jointLog] [info] starting optimizer
+[2023-11-22 17:51:26.924] [fileLog] [info] quantification processed 18638573 fragments so far
+
+[2023-11-22 17:51:27.553] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2023-11-22 17:51:27.582] [jointLog] [info] iteration = 0 | max rel diff. = 13.0004
+[2023-11-22 17:51:29.824] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2023-11-22 17:51:29.945] [jointLog] [info] finished optimizer
+[2023-11-22 17:51:29.945] [jointLog] [info] writing output

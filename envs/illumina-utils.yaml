@@ -1,0 +1,5 @@
+name: illumina-utils.yaml
+dependencies:
+- pip
+- pip:
+	- illumina-utils

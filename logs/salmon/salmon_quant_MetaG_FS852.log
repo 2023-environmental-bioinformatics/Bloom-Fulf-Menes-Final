@@ -1,0 +1,35 @@
+[2023-11-22 17:54:17.372] [jointLog] [info] setting maxHashResizeThreads to 8
+[2023-11-22 17:54:17.372] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2023-11-22 17:54:18.444] [jointLog] [info] numQuantThreads = 4
+[2023-11-22 17:54:25.212] [jointLog] [info] replaced 0 non-ACGT nucleotides with random nucleotides
+[2023-11-22 17:54:26.164] [fileLog] [info] quantification processed 0 fragments so far
+
+[2023-11-22 17:54:26.192] [fileLog] [info] quantification processed 170395 fragments so far
+
+[2023-11-22 17:54:27.747] [jointLog] [info] Automatically detected most likely library type as SF
+
+[2023-11-22 17:54:31.689] [jointLog] [info] Thread saw mini-batch with a maximum of 2.50% zero probability fragments
+[2023-11-22 17:54:31.695] [jointLog] [info] Thread saw mini-batch with a maximum of 1.70% zero probability fragments
+[2023-11-22 17:54:31.711] [jointLog] [info] Thread saw mini-batch with a maximum of 2.20% zero probability fragments
+[2023-11-22 17:54:31.727] [jointLog] [info] Thread saw mini-batch with a maximum of 1.90% zero probability fragments
+[2023-11-22 17:54:31.729] [jointLog] [info] 
+
+
+Completed first pass through the alignment file.
+Total # of mapped reads : 170395
+# of uniquely mapped reads : 170394
+# ambiguously mapped reads : 1
+
+
+
+[2023-11-22 17:54:31.823] [jointLog] [info] Computed 168,677 rich equivalence classes for further processing
+[2023-11-22 17:54:31.823] [jointLog] [info] Counted 169,021 total reads in the equivalence classes 
+[2023-11-22 17:54:31.964] [jointLog] [warning] Only 170395 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2023-11-22 17:54:31.967] [jointLog] [info] starting optimizer
+[2023-11-22 17:54:32.263] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2023-11-22 17:54:32.277] [jointLog] [info] iteration = 0 | max rel diff. = 99
+[2023-11-22 17:54:33.485] [jointLog] [info] iteration = 100 | max rel diff. = 0
+[2023-11-22 17:54:33.541] [jointLog] [info] finished optimizer
+[2023-11-22 17:54:33.541] [jointLog] [info] writing output

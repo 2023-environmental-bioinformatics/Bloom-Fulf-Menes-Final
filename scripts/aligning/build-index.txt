@@ -1,0 +1,2 @@
+#script to build index from concatenated metaG alignments from megahit output. index needed for bowtie2
+bowtie2-build ../../output/MegaHit_to_use_downstream/all.contigs.fa ../../output/MegaHit_to_use_downstream/megahit_index

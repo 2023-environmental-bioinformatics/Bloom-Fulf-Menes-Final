@@ -1,0 +1,17 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+_libgcc_mutex=0.1=main
+_openmp_mutex=5.1=1_gnu
+gmp=6.2.1=h295c915_3
+libgcc-ng=11.2.0=h1234567_1
+libgfortran-ng=7.5.0=ha8ba4b0_17
+libgfortran4=7.5.0=ha8ba4b0_17
+libgomp=11.2.0=h1234567_1
+libstdcxx-ng=11.2.0=h1234567_1
+mpi=1.0=openmpi
+muscle=5.1=h9f5acd7_1
+openmpi=4.0.2=hb1b8bf9_1
+raxml=8.2.12=hec16e2b_4
+raxml-ng=0.9.0=h192cbe9_1
+zlib=1.2.13=h5eee18b_0

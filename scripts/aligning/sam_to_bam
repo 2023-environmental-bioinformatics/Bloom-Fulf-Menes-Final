@@ -1,0 +1,36 @@
+#bin/bash
+
+# Convert SAM to BAM and Sort:
+# -b says output should be BAM file, -s says input is a SAM file, sort is what sorts the BAM file, 
+# -o indicates output name, - indicates that the input of the command right of the pipe is the output 
+# of the command left of the pipe.
+# We ran this in the directory ../../output/mapped_reads/
+
+# Meta G
+
+samtools view -bS FS851_MetaG_mapped.sam  > FS851_MetaG_mapped.bam
+samtools view -bS FS851_MetaG_mapped.sam | samtools sort -o FS851_MetaG_mapped.sorted.bam –
+
+samtools view -bS FS852_MetaG_mapped.sam  > FS852_MetaG_mapped.bam
+samtools view -bS FS852_MetaG_mapped.sam | samtools sort -o FS852_MetaG_mapped.sorted.bam -
+
+samtools view -bS FS854_MetaG_mapped.sam | samtools sort -o FS854_MetaG_mapped.sorted.bam -
+samtools view -bS FS852_MetaG_mapped.sam  > FS852_MetaG_mapped.bam
+
+samtools view -bS FS856_MetaG_mapped.sam  > FS856_MetaG_mapped.bam
+samtools view -bS FS856_MetaG_mapped.sam | samtools sort -o FS856_MetaG_mapped.sorted.bam -
+
+#meta T
+
+samtools view -bS FS851_metaT_mapped.sam  > FS851_metaT_mapped.bam
+samtools view -bS FS851_metaT_mapped.sam | samtools sort -o FS851_metaT_mapped.sorted.bam -
+
+samtools view -bS FS852_metaT_mapped.sam  > FS852_metaT_mapped.bam
+samtools view -bS FS852_metaT_mapped.sam | samtools sort -o FS852_metaT_mapped.sorted.bam -
+
+samtools view -bS FS854_metaT_mapped.sam  > FS854_metaT_mapped.bam
+samtools view -bS FS854_metaT_mapped.sam | samtools sort -o FS854_metaT_mapped.sorted.bam -
+
+samtools view -bS FS856_metaT_mapped.sam  > FS856_metaT_mapped.bam
+samtools view -bS FS856_metaT_mapped.sam | samtools sort -o FS856_metaT_mapped.sorted.bam -
+

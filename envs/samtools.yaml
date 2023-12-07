@@ -1,0 +1,5 @@
+name: samtools.yaml 
+channels:
+    - bioconda
+dependencies:
+    - samtools

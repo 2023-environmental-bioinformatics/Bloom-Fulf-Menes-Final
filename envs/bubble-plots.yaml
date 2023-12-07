@@ -1,0 +1,5 @@
+name: bubble-plots.yaml
+dependencies:
+- pip
+- pip:
+      	- openpyxl

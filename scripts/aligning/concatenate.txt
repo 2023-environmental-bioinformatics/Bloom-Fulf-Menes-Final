@@ -1,0 +1,13 @@
+#author: Avery
+#to prepare for mapping metaT and metaG reads back to metaG contigs using bowtie2,
+#we had to concatenate the metaG alignments from the megahit output and make sure each header
+#in the concatenated file was unique to avoid an error.
+
+#add the sample name to the contig name for each header within each separate metaG alignment file (ran this code while within ../../output/MegaHit_to_use_downstream/):
+sed -i 's/ f/_FS851 f/g' FS851_final.contigs.fa
+sed -i 's/ f/_FS852 f/g' FS852_final.contigs.fa
+sed -i 's/ f/_FS854 f/g' FS854_final.contigs.fa
+sed -i 's/ f/_FS856 f/g' FS856_final.contigs.fa
+
+#concatenate metaG alignments from megahit (also ran this code inside ../../output/MegaHit_to_use_downstream/):
+cat *final.contigs.fa > all.contigs.fa

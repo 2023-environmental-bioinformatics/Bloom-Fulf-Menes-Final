@@ -1,0 +1,5 @@
+name: bowtie2.yaml
+channels:
+    - bioconda
+dependencies:
+    - bowtie2

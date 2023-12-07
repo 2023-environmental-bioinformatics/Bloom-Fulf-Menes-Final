@@ -1,0 +1,6 @@
+#author: Avery
+#script used to simplify the all-contigs-prokkannotated.gff file into a file with just the lines that associate
+#contig IDs with gene IDs. Output file is called prokka-contigs-idsonly.gff. I ran this in the directory
+#../output/data_processing/
+
+grep "ID=HH" all-contigs-prokkannotated.gff > prokka-contigs-idsonly.gff
