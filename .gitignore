@@ -1,0 +1,13 @@
+data/
+output/assemblies/
+output/data_processing/
+output/filtered/
+output/kofam_outputs/
+output/mapped_reads/
+output/MegaHit_to_use_downstream/
+output/merged/
+output/MUSCLE/
+output/prodigal-faas/
+output/silva
+/proj/omics/env-bio/collaboration/Bloom-Fulf-Menes-Final/output/prodigal-faas/all.contigs_prokka_outputs/
+/proj/omics/env-bio/collaboration/Bloom-Fulf-Menes-Final/output/assemblies
