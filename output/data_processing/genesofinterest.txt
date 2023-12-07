@@ -1,0 +1,24 @@
+ech hydrogenase (echABCE),K14086,K14087,K14088,K14089,K14090
+energy-converting hydrogenase A (ehaBCEGNOP),K14093,K14094,K14096,K14098,K14105,K14106,K14107
+energy-converting hydrogenase B (ehbAHFIJKLNO),K14092,K14093,K14097,K14100,K14101,K14102,K14103,K14105,K14106
+coenzyme F420 hydrogenase (frhABDG),K00440,K00441,K00442,K00443
+hydrogenase (hyaABC/hybO/hybC),K06282,K06281,K03620,K06282,K06281
+[NiFe] hydrogenase (hydAB),K18008,K00437
+methane/ammonia monooxygenase (pmoA-amoA),K10944
+methyl-coenzyme M reductase (mcrABCDG),K00399,K00401,K03421,K03422,K00402
+nitrous-oxide reductase (nosZ),K00376
+nitrite reductase (NO-forming)/hydroxylamine reductase (nirKS),K00368,K15864
+nitric oxide reductase (norB),K04561
+nitrite reductase (cytochrome c-552) (nrfA),K03385
+cytochrome c oxidase (coxABCD/AC/ctaF),K02274,K02275,K02276,K02277,K15408
+cytochrome c oxidase cbb3-type (ccoNOPQ_NO),K00404,K00405,K00406,K00407,K15862
+carbon-monoxide dehydrogenase (cooCFS/acsA),K07321,K00196,K00198
+ATP-citrate lyase (aclAB),K15230,K15231
+fumarate reductase (frdAB),K18556,K18557
+2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase (korABCD/oorABCD),K00174,K00175,K00177,K00176
+sulfite reductase (dsrAB),K11180,K11181
+sulfate adenylyltransferase (sat/met3),K00958
+sulfur-oxidizing protein Sox (soxABCXYZ),K17222,K17224,K17225,K17223,K17226,K17227
+sulfide:quinone oxidoreductase (sqr),K17218
+iron transport protein (FeoB/C),K04759,K07490
+iron transport protein (FeoA),K04758
